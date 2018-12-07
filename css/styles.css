@@ -11,9 +11,9 @@ div{
 }
 
 h1{
-  margin-top: 0;
   font-size: 600%;
 }
+
 h2{
   font-size: 400%;
 }
@@ -29,7 +29,15 @@ hr{
 }
 .top-container{
 }
-
+.subtitle{
+  margin: 24px;
+}
+.cherryblossom{
+  height: 20%;
+  position: absolute;
+  left: 50px;
+  top: 260px;
+}
 .brownborder{
   border: solid;
   border-width: 10px;
