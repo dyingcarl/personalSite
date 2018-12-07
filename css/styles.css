@@ -1,0 +1,46 @@
+body{
+  background-color: #5c2223;
+  margin: 0;
+  text-align: center;
+  color: #aa6a4c;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+div{
+  margin: 0 auto 0 auto;
+}
+
+h1{
+  margin-top: 0;
+  font-size: 600%;
+}
+h2{
+  font-size: 400%;
+}
+img{
+  height: 100%;
+}
+p{
+  font-size: 35px;
+}
+hr{
+  border: solid;
+  border-width: 10px;
+}
+.top-container{
+}
+
+.brownborder{
+  border: solid;
+  border-width: 10px;
+}
+.heading{
+  background-color: #863020;
+  font-family: 'Amatic SC', cursive;
+  padding: 20px;
+
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  left: 25px;
+}
