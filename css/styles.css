@@ -1,5 +1,5 @@
 body{
-  background-color: #5c2223;
+  background-color: #63071c;
   margin: 0;
   text-align: center;
   color: #aa6a4c;
@@ -16,6 +16,8 @@ h1{
 
 h2{
   font-size: 400%;
+  font-weight: 600;
+  line-height: 2;
 }
 img{
   height: 100%;
@@ -27,6 +29,9 @@ hr{
   border: solid;
   border-width: 10px;
 }
+a{
+  color: #eeaa9c;
+}
 .top-container{
 }
 .subtitle{
@@ -35,20 +40,33 @@ hr{
 .cherryblossom{
   height: 20%;
   position: absolute;
-  left: 50px;
-  top: 260px;
+  left: 1.5%;
+  top: 40%;
 }
+
 .brownborder{
   border: solid;
   border-width: 10px;
 }
 .heading{
-  background-color: #863020;
+  background-color: #5c2223;
   font-family: 'Amatic SC', cursive;
   padding: 20px;
 
-  width: 50%;
+  width: 80%;
   display: inline-block;
   position: relative;
   left: 25px;
+}
+.skill-row{
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
