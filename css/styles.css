@@ -17,25 +17,34 @@ h1{
 h2{
   font-size: 400%;
   font-weight: 600;
-  line-height: 2;
+}
+
+h3{
+  font-size: 300%;
 }
 img{
   height: 100%;
 }
 p{
-  font-size: 35px;
+  font-size: 200%;
+  text-align: left;
 }
 hr{
-  border: solid;
-  border-width: 10px;
+  width: 20%;
+  border: dotted;
+  border-width: 10px 0 0 0;
+  color: #5c2223;
 }
 a{
   color: #eeaa9c;
+  text-decoration: none;
 }
+
 .top-container{
 }
-.subtitle{
+#subtitle{
   margin: 24px;
+  text-align: center;;
 }
 .cherryblossom{
   height: 20%;
@@ -58,15 +67,62 @@ a{
   position: relative;
   left: 25px;
 }
-.skill-row{
+.middle-container{
   width: 50%;
   display: inline-block;
-  text-align: left;
+
   line-height: 2;
 }
 
-.skill-img{
+.skill-img-even{
   width: 25%;
   float: left;
   margin-right: 30px;
+}
+
+.skill-img-odd{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.butn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  display: inline-block;
+  color: #aa6a4c;
+  font-size: 26px;
+  padding: 24px;
+  background: #5c2223;
+  border: solid #aa6a4c 4px;
+  text-decoration: none;
+  margin: 0 auto 40px auto;
+}
+
+.butn:hover {
+  background: #ab372f;
+  text-decoration: none;
+}
+.bottom-container{
+  background-color: #ab372f;
+  color: #f19790;
+  padding: 40px;
+
+}
+.footer-link{
+  display: inline-block;
+  padding: 10px;
+  font-size: 120%;
+}
+.footer-link:hover{
+  position: relative;
+  color: #f2b9b2;
+  border-style: solid;
+  border-width: 0 3px 0 3px;
+  border-color: #eeaa9c;
+}
+#footer{
+  font-size: 50%;
+  text-align: center;
 }
