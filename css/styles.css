@@ -1,8 +1,8 @@
 body{
-  background-color: #63071c;
+  background-color: #253d24;
   margin: 0;
   text-align: center;
-  color: #aa6a4c;
+  color: #f2e6ce;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -11,7 +11,8 @@ div{
 }
 
 h1{
-  font-size: 600%;
+  color: #fca106;
+  font-size: 8rem;
 }
 
 h2{
@@ -33,18 +34,21 @@ hr{
   width: 20%;
   border: dotted;
   border-width: 10px 0 0 0;
-  color: #5c2223;
+  color: #de2a18;
 }
 a{
   color: #eeaa9c;
   text-decoration: none;
 }
 
-.top-container{
-}
 #subtitle{
   margin: 24px;
-  text-align: center;;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.charC{
+  font-size: 2rem;
+  font-weight: 900;
 }
 .cherryblossom{
   height: 20%;
@@ -58,15 +62,19 @@ a{
   border-width: 10px;
 }
 .heading{
-  background-color: #5c2223;
+  background-color: #de2a18;
   font-family: 'Amatic SC', cursive;
-  padding: 20px;
+  padding: 10px;
 
   width: 80%;
   display: inline-block;
   position: relative;
   left: 25px;
 }
+.carousel-item{
+  padding: 7% 15%;
+}
+
 .middle-container{
   width: 50%;
   display: inline-block;
@@ -91,21 +99,21 @@ a{
   -moz-border-radius: 0;
   border-radius: 0;
   display: inline-block;
-  color: #aa6a4c;
+  color: #fbb929;
   font-size: 26px;
   padding: 24px;
-  background: #5c2223;
-  border: solid #aa6a4c 4px;
+  background: #5d3d21;
+  border: solid #f2e6ce 4px;
   text-decoration: none;
   margin: 0 auto 40px auto;
 }
 
 .butn:hover {
-  background: #ab372f;
+  background: #835e1d;
   text-decoration: none;
 }
 .bottom-container{
-  background-color: #ab372f;
+  background-color: #de2a18;
   color: #f19790;
   padding: 40px;
 
