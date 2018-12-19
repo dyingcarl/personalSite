@@ -13,10 +13,13 @@ div{
 h1{
   color: #fca106;
   font-size: 8rem;
+
 }
 
 h2{
-  font-size: 400%;
+  color: #fca106;
+  margin-top: 3%;
+  font-size: 4rem;
   font-weight: 600;
 }
 
@@ -31,6 +34,7 @@ p{
   text-align: left;
 }
 hr{
+  margin: 5% auto;
   width: 20%;
   border: dotted;
   border-width: 10px 0 0 0;
@@ -63,7 +67,7 @@ a{
 }
 .heading{
   background-color: #de2a18;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Leckerli One', cursive;
   padding: 10px;
 
   width: 80%;
@@ -76,13 +80,15 @@ a{
 }
 
 .middle-container{
-  width: 50%;
+  width: 70%;
   display: inline-block;
 
   line-height: 2;
 }
-
-.skill-img-even{
+.ps{
+  font-size: 1.2rem;
+}
+/* .skill-img-even{
   width: 25%;
   float: left;
   margin-right: 30px;
@@ -92,16 +98,16 @@ a{
   width: 25%;
   float: right;
   margin-left: 30px;
-}
+} */
 
 .butn {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
   display: inline-block;
-  color: #fbb929;
-  font-size: 26px;
-  padding: 24px;
+  color: #ec2b24;
+  font-size: 1rem;
+  padding: 1% 2%;
   background: #5d3d21;
   border: solid #f2e6ce 4px;
   text-decoration: none;
@@ -110,6 +116,7 @@ a{
 
 .butn:hover {
   background: #835e1d;
+  color: #ed4845;
   text-decoration: none;
 }
 .bottom-container{
